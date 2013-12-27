@@ -1,0 +1,8 @@
+## Interface: 20400
+## Title: ProfSync
+## Notes: Synchronizes profession data in public notes.
+## Author: Siarkowy
+## Version: 1.0
+
+data.lua
+core.lua
