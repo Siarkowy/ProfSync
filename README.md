@@ -21,4 +21,4 @@ Usage
 2. Run data generation script: `php generate_data.php > data.lua`
 3. (Re)start WoW client.
 4. Type in-game: `/run ProfSync:Enable()`
-5. Log out and disable addon completely.
+5. Log out and disable addon completely after notes are updated.
