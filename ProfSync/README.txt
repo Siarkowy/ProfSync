@@ -26,4 +26,4 @@ Usage:
 
             /run ProfSync:Enable()
 
-    5.  Log out and disable addon completely.
+    5.  Log out and disable addon completely after notes are updated.
