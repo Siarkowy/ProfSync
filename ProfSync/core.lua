@@ -1,5 +1,5 @@
 --------------------------------------------------------------------------------
--- ProfSync (c) 2013 by Siarkowy
+-- ProfSync (c) 2014 by Siarkowy
 -- Released under the terms of BSD 2-Clause license.
 --------------------------------------------------------------------------------
 
@@ -46,4 +46,11 @@ end
 
 function Sync:Disable()
     self:UnregisterEvent("GUILD_ROSTER_UPDATE")
+    DEFAULT_CHAT_FRAME:AddMessage("ProfSync finished.")
 end
+
+function SlashCmdList.PROFSYNC(msg)
+    Sync:Enable()
+end
+
+SLASH_PROFSYNC1 = "/profsync"

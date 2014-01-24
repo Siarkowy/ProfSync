@@ -1,5 +1,5 @@
 --------------------------------------------------------------------------------
--- ProfSync (c) 2013 by Siarkowy
+-- ProfSync (c) 2014 by Siarkowy
 -- Released under the terms of BSD 2-Clause license.
 --------------------------------------------------------------------------------
 
@@ -24,6 +24,6 @@ Usage:
     3.  (Re)start WoW client.
     4.  Type in-game:
 
-            /run ProfSync:Enable()
+            /profsync
 
     5.  Log out and disable addon completely after notes are updated.
